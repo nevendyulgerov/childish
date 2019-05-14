@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+.events {
+    width: 640px;
+    padding: 30px;
+    margin: 60px auto 20px auto;
+    background-color: lightgray;
+    border-radius: 4px;
+    text-align: left;
+}
