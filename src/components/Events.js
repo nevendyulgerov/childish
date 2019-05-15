@@ -18,7 +18,7 @@ class Events extends Component {
     getEvents = () => {
         api.events.getItems()
             .then(this.setEvents)
-            .catch(this.onError())
+            .catch(this.onError);
     };
 
     setEvents = (res) => {
